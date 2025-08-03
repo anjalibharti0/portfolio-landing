@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background: linear-gradient(135deg, #45424e, #19181f);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+  border: 5px solid #fff;
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h1 span {
+  color: #ffd369;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.desc {
+  max-width: 500px;
+  margin: 0 auto 25px;
+  color: #cfcfcf;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: #ffd369;
+  color: #1f1c2c;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffcc00;
+}
+
+.btn.outline {
+  /* background: transparent; */
+  border: 2px solid #ffd369;
+  color: #171511;
+}
+
+.btn.outline:hover {
+  background-color: #ffd369;
+  color: #1f1c2c;
+}
